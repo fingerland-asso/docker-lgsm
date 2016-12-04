@@ -16,4 +16,4 @@ RUN chmod +x /usr/local/bin/run-server
 USER lgsm
 WORKDIR "${INSTALL_DIR}"
 VOLUME ["${INSTALL_DIR}"]
-CMD ["/usr/local/bin/run-server"]
+ENTRYPOINT ["/usr/local/bin/run-server"]

@@ -1,4 +1,4 @@
-CONTAINER=csgoserver
+CONTAINER=lgsm
 VOLUME=/data/dockers/${CONTAINER}
 IMAGE=fingerland/${CONTAINER}
 OPTIONS=-v ${VOLUME}:/server
